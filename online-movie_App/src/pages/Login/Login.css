@@ -1,0 +1,85 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.login-Wrapper {
+    width: 635px;
+    height: 524px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #ffffff;
+    margin: 100px 440px 168px 440px;
+    border-radius: 10px;
+
+}
+
+.input-Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.input-Wrapper input {
+    width: 300px;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 10px;
+    color: #BEBEBF;
+    border: 1px solid#BEBEBF;
+    outline: none;
+}
+
+.login-Wrapper #btn-Wrapper {
+    background-color: #1DE782;
+    width: 320px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    border: none;
+    margin: 25px 0 25px 0;
+
+}
+
+/* .login-Wrapper #btn-Wrapper input {
+    background-color: #1DE782;
+    width: 320px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+} */
+
+.login-Wrapper #btn-Wrapper:hover {
+    background-color: #0a4c28;
+}
+
+h2 {
+    margin: 0;
+    color: #111111;
+}
+
+.alreadylogin-Wrapper a:-webkit-any-link {
+    color: #1DE782;
+}
+
+.loginNotMatch {
+    color: red;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.input-Wrapper label {
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 16px;
+}

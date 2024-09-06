@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-Wrapper button {
+    padding: 5px 20px 5px 20px;
+    /* background-color: #1DE782; */
+    color: #faebd7;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: medium;
+}
+
+.image-Wrapper {
+    padding-top: 10px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    width: 100px;
+    color: #ffffff;
+}
+
+.link-Wrapper {
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.link-Wrapper #btn123 {
+    background-color: #1DE782;
+    border: 1px solid #1DE782;
+}
+
+.link-Wrapper #btn123:hover {
+    background-color: black;
+    border: 1px solid #ffffff;
+}
+
+.link-Wrapper #btn1234 {
+    background-color: black;
+    border: 1px solid #ffffff;
+}
+
+.link-Wrapper #btn1234:hover {
+    background-color: #1DE782;
+    border: 1px solid #1DE782;
+}

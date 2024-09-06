@@ -1,0 +1,55 @@
+.moviesBlog-Wrapper h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 46px;
+    line-height: 46px;
+    margin: 45px 0 60px 0;
+}
+
+/* image Wrapper CSS */
+
+.imageSlide {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.movieImage-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    position: relative;
+}
+
+/* 
+.movieImage-wrapper .imgWrapper img {
+    width: 200px;
+    height: 300px;
+} */
+
+.imgWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.ellipceCircle2 {
+    position: absolute;
+}
+
+.ellipceCircle1 {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: -47px;
+    left: 1167px;
+
+}

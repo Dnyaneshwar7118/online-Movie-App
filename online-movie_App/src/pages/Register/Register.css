@@ -1,0 +1,92 @@
+h2 {
+    color: #111111;
+}
+
+.register-Container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.descriptionWrapper {
+    width: 720px;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginLogoWrapper {
+    padding-top: 20px;
+}
+
+.descriptionWrapper p {
+    color: #BEBEBF;
+    width: 596px;
+    height: 295px;
+    font-size: 56px;
+    font-style: italic;
+    font-family: Poppins;
+    font-weight: 300;
+
+}
+
+.xyz {
+    width: 720px;
+    height: 1024px;
+    background-color: #ffffff;
+}
+
+.register-Wrapper {
+    width: 450px;
+    height: 450px;
+    /* margin: 100px 440px 50px 440px; */
+    margin: 136px 128px 136px 128px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.register-Wrappers {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.register-Wrapper input {
+    width: 300px;
+    height: 35px;
+    padding-left: 15px;
+    border-radius: 10px;
+    color: #BEBEBF;
+    border: 1px solid#BEBEBF;
+}
+
+.register-Wrapper label {
+    color: #5A5A5D;
+    font-size: 18px;
+}
+
+.register-Wrapper #btn-Wrapper {
+    background-color: #1DE782;
+    width: 320px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-weight: 300;
+    color: #ffffff;
+    border: none;
+    margin-top: 10px;
+}
+
+.register-Wrapper #btn-Wrapper:hover {
+    background-color: #0a4c28;
+}
+
+h2 {
+    margin: 0;
+}
